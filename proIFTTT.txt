@@ -1,0 +1,10 @@
+Install IFTTT app in your smartphone.
+Login in to IFTTT.
+Click on add applets.
+You will get two options - IF and then that
+In IF search for google assistant and click on it, add your own phrases like switch on red.
+In "then that" search for adafruit IO, connect your adafruit IO to it. Choose the feed name you had given to the feed. Then in data type 16.
+Click okay when done.
+Try it now, open google assistant. Say the phrase you had put before, lights should go red.
+In data i have used 16 because, each numbers in the remote have a specific data like - 1 = 16, 2 = 17, 3 = 18, 4 = 20.....
+Try your own combinations! Enjoy coding :)
