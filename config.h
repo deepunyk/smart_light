@@ -2,8 +2,8 @@
 
 // visit io.adafruit.com if you need to create an account,
 // or if you need your Adafruit IO key.
-#define IO_USERNAME    "deepunyk1"
-#define IO_KEY         "107af10d4be24220822c4496754975be"
+#define IO_USERNAME    "Enter your adafruit username inside this"
+#define IO_KEY         "Enter your adafruit key inside this"
 
 /******************************* WIFI **************************************/
 
@@ -13,8 +13,8 @@
 //   - Feather M0 WiFi -> https://www.adafruit.com/products/3010
 //   - Feather WICED -> https://www.adafruit.com/products/3056
 
-#define WIFI_SSID       "TP-LINK_AF1A"
-#define WIFI_PASS       "9481516277"
+#define WIFI_SSID       "Enter your wifi name inside this"
+#define WIFI_PASS       "Enter your wifi passsword inside this"
 
 // comment out the following two lines if you are using fona or ethernet
 #include "AdafruitIO_WiFi.h"
