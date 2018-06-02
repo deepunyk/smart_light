@@ -1,3 +1,6 @@
+//connect the pins to the pins metioned below, make sure that these pins mentioned here are nodemcu pins. 
+// Refer the pin diagram of nodemcu before connecting
+// RGB strip which i have used is common cathode
 #define RED_PIN   14
 #define GREEN_PIN 12
 #define BLUE_PIN  13
@@ -6,7 +9,9 @@
 #define E2 5
 #include "config.h"
 
-AdafruitIO_Feed *analog = io.feed("motorcontrol");
+// Enter your adafruit feed name below inplace of feed name.
+AdafruitIO_Feed *analog = io.feed("feedname");
+
 
 
 
@@ -43,6 +48,7 @@ void handleMessage(AdafruitIO_Data *data) {
  int reading = data->toInt();
   Serial.print("received <- ");
   Serial.println(reading);
+ // for each button you press in remote you get one colour
   if(reading == 16)
   {
 analogWrite (RED_PIN, 200);
