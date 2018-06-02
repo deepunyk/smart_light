@@ -22,4 +22,4 @@ Upload this code to the nodemcu board.
 Wait for it to get connected to adafruit IO website. When it does it will show a message in your serial monitor. 
 When you get this message, your project 70 percent done. 
 Each button you click from 1-9 you get a different light as the output.
-
+To control these light using your mobile check the other textr file called proIFTTT
